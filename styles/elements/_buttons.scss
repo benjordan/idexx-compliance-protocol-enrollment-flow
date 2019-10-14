@@ -1,0 +1,224 @@
+// Buttons
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Styles for Buttons - Managed in /sass/snippets/_buttons.scss
+a.button {
+	text-decoration: none;
+
+	&:hover {
+		color: white;
+	}
+}
+.button {
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-appearance: none;
+	-webkit-user-select: none;
+	background-image: none;
+	border-radius: $button-radius;
+	border: 1px solid transparent;
+	color: $button-text-color;
+	cursor: pointer;
+	display: inline-flex;
+	font-family: $secondary-font-family;
+	font-size: $button-font-size;
+	justify-content: center;
+	letter-spacing: $button-letter-spacing;
+	line-height: rem-calc(14px);
+	margin-bottom: 20px;
+	margin-right: 5px;
+	outline: none;
+	padding: $button-padding;
+	text-align: center;
+	text-decoration: none;
+	text-transform: $button-text-transform;
+	user-select: none;
+	vertical-align: middle;
+	white-space: nowrap;
+	//width: 100%;
+
+	a {
+		color: $button-text-color;
+		font-family: $base-font-family;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: none;
+		}
+		&:focus { outline: 0; }
+	}
+
+	@include button-theme($font-color);
+
+	&.primary {
+		@include button-theme($brand-primary);
+	}
+
+	&.secondary {
+		@include button-theme($brand-secondary);
+	}
+
+	&.warning {
+		@include button-theme($warning);
+	}
+
+	&.danger {
+		color: white;
+		@include button-theme($danger);
+	}
+
+	&.disabled {
+		background-color: $gray-300;
+		color: $gray-500;
+		cursor: not-allowed;
+
+		&:hover {
+			background-color: $gray-300;
+			color: $gray-500;
+		}
+	}
+
+	&.ghost {
+		background-color: transparent;
+		border: 1px solid $brand-primary;
+		color: $brand-primary;
+		padding: $button-padding;
+
+		&.primary {
+			@include ghost-button-theme($brand-primary);
+		}
+
+		&.secondary {
+			@include ghost-button-theme($brand-secondary);
+		}
+
+		&.gray {
+			@include ghost-button-theme($gray-700);
+		}
+
+		&.danger {
+			@include ghost-button-theme($danger);
+		}
+
+		&.warning {
+			@include ghost-button-theme($warning);
+		}
+
+		&.small {
+			font-size: rem-calc(12px);
+			letter-spacing: 0;
+			line-height: rem-calc(12px);
+			padding: 10px 15px 8px 15px;
+		}
+
+		&.disabled {
+			border-color: $gray-500;
+			color: $gray-500;
+			cursor: default;
+
+			&:hover {
+				background-color: white;
+				color: $gray-500;
+			}
+		}
+
+		a {
+			color: $brand-primary;
+			font-family: $base-font-family;
+			font-weight: 500;
+
+			&:hover {
+				color: white;
+				text-decoration: none;
+			}
+
+		}
+
+		&:hover {
+			background-color: $brand-primary;
+			color: white;
+		}
+	}
+
+	&.with-icon {
+		padding-left: 45px !important;
+		position: relative;
+
+		.button-icon {
+			font-size: rem-calc(20px) !important;
+			left: 20px;
+			position: absolute;
+			top: 10px;
+		}
+	}
+
+	&.large {
+		font-size: rem-calc(16px);
+		font-weight: 400;
+		padding: 20px 40px 18px 40px;
+	}
+
+	&.small {
+		font-size: 12px;
+		font-weight: 400;
+		height: auto;
+		letter-spacing: 0;
+		padding: 10px 15px 8px 15px;
+	}
+
+	&.xsmall {
+		font-size: 10px;
+		height: auto;
+		line-height: 1.5;
+		padding: 5px 10px 4px 10px;
+	}
+
+	&.fullwide {
+		padding: 20px 0;
+		text-align: center;
+		width: 100%;
+	}
+
+}
+
+input {
+	&[type="submit"],
+	&[type="reset"],
+	&[type="button"] {
+		background-color: $brand-primary;
+		background-image: none;
+		border: 1px solid transparent;
+		color: $button-text-color;
+		cursor: pointer;
+		display:inline-flex;
+		font-family: $secondary-font-family;
+		font-size: $button-font-size;
+		letter-spacing: $button-letter-spacing;
+		line-height: 1;
+		margin-bottom: 20px;
+		outline: none;
+		padding: $button-padding;
+		text-align: center;
+		text-transform: $button-text-transform;
+		user-select: none;
+		vertical-align: middle;
+		white-space: nowrap;
+	}
+}
+
+input {
+	&[type="submit"]:hover,
+	&[type="reset"]:hover,
+	&[type="button"]:hover {
+		background-color: $brand-secondary;
+		outline: 0;
+	}
+}
+
+input {
+	&[type="submit"]:focus,
+	&[type="reset"]:focus,
+	&[type="button"]:focus {
+		outline: 0;
+	}
+}

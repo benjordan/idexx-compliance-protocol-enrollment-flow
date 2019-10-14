@@ -1,0 +1,30 @@
+// Styles for Alerts
+
+.alert {
+  border-radius: 2px;
+  border: 1px solid transparent;
+  font-size: rem-calc(14px);
+  margin: 10px 0 20px 0;
+  padding: 15px;
+  text-align: center;
+
+  @include alert-theme($brand-primary);
+
+  &.alert--success {
+    @include alert-theme($success);
+  }
+
+  &.alert--warning {
+    @include alert-theme($warning);
+  }
+
+  &.alert--danger {
+    @include alert-theme($danger);
+  }
+
+  &.alert--disabled {
+    @include alert-theme($gray-300);
+    color: $gray-700;
+  }
+
+}
