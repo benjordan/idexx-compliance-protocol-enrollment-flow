@@ -5,8 +5,21 @@
 	padding-bottom: 200px;
 }
 
+.landing-page-photo {
+	order: 2;
+
+	@media ($small-devices) {
+		order: 1;
+	}
+}
+
 .landing-page-content {
 	margin-top: 90px;
+	order: 1;
+
+	@media ($small-devices) {
+		order: 2;
+	}
 
 	.logo {
 		margin-bottom: 25px;
