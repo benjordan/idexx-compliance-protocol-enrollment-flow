@@ -209,12 +209,12 @@
 		},
 	"/icon.png": {
 		"ft": 32768,
-		"iS": 4029,
+		"iS": 7593,
 		"oA": 0,
 		"oAP": "/icon.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -571,25 +571,14 @@
 		"oAP": "/thanks.html",
 		"oF": 0
 		},
-	"/tile-wide.png": {
-		"ft": 32768,
-		"iS": 1854,
-		"oA": 0,
-		"oAP": "/tile-wide.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/tile.png": {
 		"ft": 32768,
-		"iS": 3482,
+		"iS": 8900,
 		"oA": 0,
 		"oAP": "/tile.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
