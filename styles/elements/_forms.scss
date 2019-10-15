@@ -126,6 +126,7 @@ label {
   font-weight: 400;
   letter-spacing: $label-letter-spacing;
   text-transform: $label-text-transform;
+  width: 100%;
 
   &.inline {
     color: $gray-900;
@@ -143,9 +144,11 @@ label {
 
 fieldset {
   display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   border-width: 0;
+  width: 100%;
 }
 
 input {

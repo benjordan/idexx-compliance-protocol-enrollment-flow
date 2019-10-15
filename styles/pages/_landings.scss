@@ -178,10 +178,15 @@
 .enrollment-step-actions {
 	margin-top: 40px;
 	text-align: right;
+
+	.with-terms {
+		margin-top: 20px;
+	}
 }
 
 .checkbox-holder {
-	float: right;
+	text-align: right;
+	width: 100%;
 
 	.check-label {
 		color: $gray-700;
@@ -234,6 +239,7 @@
 	background-color: white;
 	font-size: rem-calc(12px);
 	height: 500px;
+	margin-bottom: 30px;
 	overflow-y: scroll;
 	padding: 30px;
 }

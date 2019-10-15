@@ -28,6 +28,10 @@ footer.footer {
 		li {
 			color: $brand-primary;
 			margin: 0 15px;
+
+			&:first-child {
+  			list-style: none;
+  		}
 		}
 	}
 }
