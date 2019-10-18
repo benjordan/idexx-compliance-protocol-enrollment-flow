@@ -101,11 +101,33 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/assets/img/heartgard-plus.png": {
+		"ft": 32768,
+		"iS": 482078,
+		"oA": 0,
+		"oAP": "/assets/img/heartgard-plus.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/hills-digestive-care.png": {
 		"ft": 32768,
 		"iS": 164966,
 		"oA": 0,
 		"oAP": "/assets/img/hills-digestive-care.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/hills-metabolic.png": {
+		"ft": 32768,
+		"iS": 75135,
+		"oA": 0,
+		"oAP": "/assets/img/hills-metabolic.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
