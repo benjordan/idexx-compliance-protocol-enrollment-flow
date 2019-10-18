@@ -101,6 +101,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/assets/img/hills-digestive-care.png": {
+		"ft": 32768,
+		"iS": 164966,
+		"oA": 0,
+		"oAP": "/assets/img/hills-digestive-care.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/HP-home-brands-logo-pd.png": {
 		"ft": 32768,
 		"iS": 19612,
@@ -120,6 +131,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/nexguard-chewables.png": {
+		"ft": 32768,
+		"iS": 175962,
+		"oA": 0,
+		"oAP": "/assets/img/nexguard-chewables.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/oravet-dental-hygiene.png": {
+		"ft": 32768,
+		"iS": 167809,
+		"oA": 0,
+		"oAP": "/assets/img/oravet-dental-hygiene.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
